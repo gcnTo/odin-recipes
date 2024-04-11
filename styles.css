@@ -1,4 +1,43 @@
+* {
+  color: aliceblue;
+  box-sizing: border-box;
+}
+
+a:visited {
+  color: blanchedalmond;
+}
+
+body {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  color: black;
+  margin-top: 20px; /* Add margin to separate h1 from the flex container */
+}
+
+.recipe {
+  width: 30%;
+  height: 100vh;
+  padding: 1%;
+  background-color: brown;
+  margin: 1%;
+}
+
 img {
-    width: 50%;
-    height: auto;
+  width: 100%;
+  max-height: 50%;
+  height: auto;
+  padding: 5%;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
 }
